@@ -1,0 +1,14 @@
+[
+  {
+    "domain": "Compliance",
+    "nodes": [
+      "Data_Parsing_Rule"
+    ]
+  },
+  {
+    "domain": "Legal",
+    "nodes": [
+      "Mock_Data_Liability"
+    ]
+  }
+]

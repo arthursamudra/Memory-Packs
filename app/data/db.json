@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pack_1784559946042",
+    "name": "Prohibition of Hypothetical Performance Data",
+    "department": "Compliance",
+    "trigger_keywords": [
+      "SEC",
+      "marketing rule",
+      "Wealth advisors",
+      "prohibited",
+      "charts",
+      "text",
+      "implications",
+      "hypothetical performance",
+      "retail investors",
+      "backtested data",
+      "strategy"
+    ],
+    "injected_behavior": "CRITICAL COMPLIANCE DIRECTIVE: Wealth advisors are strictly forbidden from generating or presenting any charts, text, or implications of 'hypothetical performance' to retail investors. The use of backtested data to show what a strategy 'would have' returned is strictly prohibited.",
+    "raw_steps": {
+      "semantic_parsing": {
+        "extracted_keywords": [
+          "SEC",
+          "marketing rule",
+          "Wealth advisors",
+          "prohibited",
+          "charts",
+          "text",
+          "implications",
+          "hypothetical performance",
+          "retail investors",
+          "backtested data",
+          "strategy"
+        ],
+        "identified_risk": "Misleading retail investors with hypothetical performance data"
+      },
+      "behavior_mapping": {
+        "name": "Prohibition of Hypothetical Performance Data",
+        "injected_behavior": "CRITICAL COMPLIANCE DIRECTIVE: Wealth advisors are strictly forbidden from generating or presenting any charts, text, or implications of 'hypothetical performance' to retail investors. The use of backtested data to show what a strategy 'would have' returned is strictly prohibited."
+      },
+      "ontology_alignment": {
+        "canonical_term": "Data_Parsing_Rule",
+        "department": "Compliance",
+        "confidence": "94.0"
+      },
+      "vector_logs": [
+        {
+          "domain": "Legal",
+          "node": "Mock_Data_Liability",
+          "similarity": 0.7517578653101645,
+          "selected": false
+        },
+        {
+          "domain": "Compliance",
+          "node": "Data_Parsing_Rule",
+          "similarity": 0.94,
+          "selected": true
+        }
+      ]
+    }
+  }
+]
